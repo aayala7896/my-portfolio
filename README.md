@@ -2,7 +2,7 @@
 Welcome to my personal portfolio! This is currently a work in progress and is being improved weekly!
 
 # Vercel Deployment
-[https://my-portfolio-eight-chi-28.vercel.app/]
+https://my-portfolio-eight-chi-28.vercel.app/
 
 ## Getting Started
 
