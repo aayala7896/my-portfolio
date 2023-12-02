@@ -9,11 +9,6 @@ import About from '@/components/about'
 import Footer from '@/components/footer'
 import './globals.css'
 
-export const metadata: Metadata = {
-  title: 'Home',
-  description: 'Hi, Welcome To My Portfolio! Developed with React & Next.js',
-  metadataBase: new URL('https://www.alex-ayala.com/'),
-};
 
 export default function Home() {
   return (

@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   openGraph: {
-    title: "%s | Portfolio",
+    title: "Home | Portfolio",
     url: "https://www.alex-ayala.com/",
     description: 'Hi, Welcome To My Portfolio! Developed with React & Next.js',
     type: "website",
