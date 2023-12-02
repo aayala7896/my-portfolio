@@ -5,13 +5,14 @@ import Image from 'next/image';
 
 function About() {
     return (
-      <div id="about" className="grid grid-cols-4 gap-4 scroll-mt-12">
+      <div id="about" className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 scroll-mt-12">
        <div className="container space-y-8">
         <Image
           src="/IMG_6742.jpg"
           alt="Profile"
-          width={500}
-          height={500}
+          width={300}
+          height={300}
+          className="max-w-full h-auto mx-auto"
         />
          </div>
 
@@ -21,7 +22,7 @@ function About() {
                 <h1 className="text-5xl font-extrabold dark:text-white">Alex Ayala</h1>
                 </div>
                 <div>
-                    <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400  mb-8">
+                    <p className="text-lg sm:text-3xl  font-normal text-gray-500 lg:text-xl dark:text-gray-400  mb-8">
                     Hello! I am a senior at Chico State, pursuing a B.A. in Computer Science. 
                     My interest consist of Web Development and UI/UX.
                     I have experience in Web Development with Python/Django & React.
