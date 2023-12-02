@@ -27,27 +27,6 @@ function About() {
                     I have experience in Web Development with Python/Django & React.
                     </p>
                 </div>
-                <div className="flex flex-wrap items-center  space-x-4">
-                    <span className="bg-gray-300 dark:bg-gray-700 px-3 py-1 rounded-full text-sm font-semibold text-gray-700 dark:text-gray-300">
-                        Python
-                    </span>
-                    <span className="bg-gray-300 dark:bg-gray-700 px-3 py-1 rounded-full text-sm font-semibold text-gray-700 dark:text-gray-300">
-                        Django
-                    </span>
-                    <span className="bg-gray-300 dark:bg-gray-700 px-3 py-1 rounded-full text-sm font-semibold text-gray-700 dark:text-gray-300">
-                        React
-                    </span>
-                    <span className="bg-gray-300 dark:bg-gray-700 px-3 py-1 rounded-full text-sm font-semibold text-gray-700 dark:text-gray-300">
-                        HTML/CSS
-                    </span>
-                    <span className="bg-gray-300 dark:bg-gray-700 px-3 py-1 rounded-full text-sm font-semibold text-gray-700 dark:text-gray-300">
-                        Git
-                    </span>
-                    <span className="bg-gray-300 dark:bg-gray-700 px-3 py-1 rounded-full text-sm font-semibold text-gray-700 dark:text-gray-300">
-                        C++
-                    </span>
-
-             </div>
             </div>
 
         </div>
