@@ -5,7 +5,7 @@ import React from 'react';
 function Projects(){
 
     return (
-        <projects>
+        <projects id="projects">
             <h1 class="text-5xl font-extrabold dark:text-white text-center pt-6">Project Showcase</h1>
             <div className="container mx-auto flex flex-col items-center space-y-16 pt-6">
         

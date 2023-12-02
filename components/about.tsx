@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 function About() {
     return (
-      <div id="about" className="grid grid-cols-4 gap-4">
+      <div id="about" className="grid grid-cols-4 gap-4 pt-6 pb-6">
        <div className="container space-y-8">
         <Image
           src="/IMG_6742.jpg"
