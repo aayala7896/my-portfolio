@@ -5,8 +5,13 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Portfolio',
-  description: 'Portfolio-Alex Ayala',
+  title: {
+    template: '%s | Portfolio',
+    default: 'Alex Ayala Portfolio',
+  },
+  description: 'Hi, Welcome To My Portfolio! Developed with React & Next.js',
+  metadataBase: new URL('https://www.alex-ayala.com/'),
+  
 }
 
 export default function RootLayout({
@@ -16,7 +21,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='scroll-smooth'>
-   
       <body className={inter.className}>{children}</body>
     </html>
   )

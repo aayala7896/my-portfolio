@@ -1,4 +1,5 @@
 import React, { Children } from 'react'
+import { Metadata } from 'next';
 import Image from 'next/image'
 import Header from '../components/header'
 import Nav from '../components/navbar'
@@ -7,6 +8,11 @@ import Projects from '../components/projects'
 import About from '@/components/about'
 import Footer from '@/components/footer'
 import './globals.css'
+
+export const metadata: Metadata = {
+  title: 'Home',
+};
+
 export default function Home() {
   return (
     <main >
