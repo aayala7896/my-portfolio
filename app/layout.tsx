@@ -5,13 +5,21 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: {
-    template: '%s | Portfolio',
-    default: 'Alex Ayala Portfolio',
+  openGraph: {
+    title: "%s | Portfolio",
+    url: "https://www.alex-ayala.com/",
+    description: 'Hi, Welcome To My Portfolio! Developed with React & Next.js',
+    type: "website",
+    images: [
+      {
+        url: "https://www.alex-ayala.com/homepage.jpg",
+        type: "image/jpg",
+        width: 1200,
+        height: 630,
+        alt: "EMM",
+      },
+    ],
   },
-  description: 'Hi, Welcome To My Portfolio! Developed with React & Next.js',
-  metadataBase: new URL('https://www.alex-ayala.com/'),
-  
 }
 
 export default function RootLayout({
