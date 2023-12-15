@@ -31,9 +31,6 @@ function Projects(){
                                 <span className="bg-gray-300 dark:bg-gray-700 px-3 py-1 rounded-full text-sm font-semibold text-gray-700 dark:text-gray-300">
                                     Docker
                                 </span>
-                                <span className="bg-gray-300 dark:bg-gray-700 px-3 py-1 rounded-full text-sm font-semibold text-gray-700 dark:text-gray-300">
-                                    Google Cloud Console
-                                </span>
                             </div>
                         </h2>
                         <p className="text-gray-600 dark:text-gray-300">
