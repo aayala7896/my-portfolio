@@ -5,6 +5,9 @@ function Contactform(){
     const [email,setEmail] = useState('')
     const [message,setMessage] = useState('')
     const [isLoading,setIsLoading] = useState(false)
+    const showSuccessMessage = () => {
+        alert('Message sent successfully!');
+      };
 
     async function onSubmit(event: FormEvent<HTMLFormElement>){
         event.preventDefault()
@@ -20,6 +23,10 @@ function Contactform(){
         if (response.ok) {
             const data = await response.json();
             console.log('API Response:', data);
+            setEmail('');
+            setMessage('');
+
+            showSuccessMessage();
           } else {
             console.error('Error submitting the form');
           }
