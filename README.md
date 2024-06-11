@@ -1,8 +1,12 @@
 # My Portfolio
-Welcome to my personal portfolio! This is currently a work in progress and is being improved weekly!
+Welcome to my portfolio! This is a showcase of my work and skills, continually evolving to reflect the latest projects and developments.
 
-# Vercel Deployment
-https://my-portfolio-eight-chi-28.vercel.app/
+# View Live Preview
+https://www.alex-ayala.com/
+
+# Overview
+
+I am a passionate developer with an interest in web development and design. My portfolio showcases previous projects with various technologies and frameworks.
 
 ## Getting Started
 
