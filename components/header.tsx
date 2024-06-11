@@ -7,7 +7,7 @@ function Header(){
             <div className= 'grid grid-flow-row auto-rows-max'>
                 <div>
                 <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white-600 md:text-5xl lg:text-6xl dark:text-white">Welcome to my <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">portfolio.</span></h1>
-                <p className = "mb-4 tracking-tight">Web Developer / CS Student</p>
+                <p className = "mb-4 tracking-tight">Web Developer / CS Graduate</p>
                 </div>
                 <div>
                 <Link href="#about" >
