@@ -14,7 +14,9 @@ export default function Home() {
   return (
     <main >
       <Nav/>
-      
+        <head>
+        <title>Alex Ayala | Portfolio</title>
+        </head>
         <div className="grid grid-flow-row auto-rows-max flex ">
           <div>
             <Header/> 
