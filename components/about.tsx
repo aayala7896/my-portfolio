@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 function About() {
     return (
-      <div id="about" className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 scroll-mt-12">
+      <div id="about" className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 scroll-mt-12 lg:px-8">
        <div className="container flex items-center justify-center space-y-8">
         <Image
           src="/grad_photo.JPG"
@@ -59,7 +59,7 @@ function About() {
                         className="max-w-full h-auto mx-auto"
                     />
                 </div>
-                        <p className="text-lg sm:text-3xl  font-normal text-gray-500 lg:text-xl dark:text-gray-400  mb-8">
+                        <p className="text-lg sm:text-3xl  font-normal text-gray-500 lg:text-xl dark:text-gray-400  mb-8 lg:px-8 sm:content-center px-6">
                         Chico State Alumni, with a B.S. in Computer Science. My interest consists of Web Development and UI/UX. Other interests of mine include surfing, rock climbing, and camping! Feel free to message me on my contact page.
                         </p>
         </div>
