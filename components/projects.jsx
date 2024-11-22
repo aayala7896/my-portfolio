@@ -7,6 +7,33 @@ function Projects() {
         Project Showcase
       </h1>
       <div className="container mx-auto px-8 py-8 flex flex-col space-y-16">
+        {/* Project 0 */}
+        <div className="flex flex-col lg:flex-row lg:items-center lg:space-x-12 space-y-6 lg:space-y-0">
+          <div className="w-full lg:w-1/2 order-1">
+          <a target="_blank" rel="noopener noreferrer" href="https://abmginc.com/">
+            <img
+              src="/ABMG_INC.png"
+              alt="ABMG INC"
+              className="object-contain w-full h-64 rounded-md"
+            />
+            </a>
+          </div>
+          <div className="w-full lg:w-1/2 order-2 lg:px-8">
+            <h2 className="text-4xl font-extrabold dark:text-white mb-4">ABMG INC</h2>
+            <div className="flex flex-wrap items-center py-2 space-x-4 mb-4">
+              <span className="bg-gray-300 dark:bg-gray-700 px-3 py-1 rounded-full text-sm font-semibold text-gray-700 dark:text-gray-300">
+                Wordpress
+              </span>
+              <span className="bg-gray-300 dark:bg-gray-700 px-3 py-1 rounded-full text-sm font-semibold text-gray-700 dark:text-gray-300">
+                Figma
+              </span>
+            </div>
+            <p className="text-gray-600 dark:text-gray-300 mb-4">
+            Redesigned a consulting firm's website using WordPress and the Divi theme. Delivered a fully responsive design optimized for all devices, featuring user-friendly navigation and integrated contact forms to enhance client engagement.
+            </p>
+
+          </div>
+        </div>
         
         {/* Project 1 */}
         <div className="flex flex-col lg:flex-row lg:items-center lg:space-x-12 space-y-6 lg:space-y-0">
